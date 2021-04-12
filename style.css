@@ -45,6 +45,10 @@ input {
     outline: none;
 }
 
+input:hover {
+    box-shadow: #c0b5b5;
+}
+
 .btns_holder {
     margin-top: 1em;
     color: #222222;
@@ -64,6 +68,11 @@ input {
 
 .lng_sub {
     color: #1a0dab;
+    text-decoration: none;
+}
+
+.lng_sub:hover{
+    text-decoration: underline;
 }
 
 footer {
