@@ -47,21 +47,39 @@ input {
 
 .btns_holder {
     margin-top: 1em;
+    color: #222222;
 }
 
 .btns_holder button{
+    color: #222222;
     padding: 1em;
     border: none;
     font-size: 14px;
+    background-color: #f8f9fa;
+}
+
+.languages {
+    color: #222222;
+}
+
+.lng_sub {
+    color: #1a0dab;
 }
 
 footer {
-    background-color: rgb(240, 236, 236);
+    background-color: #f8f9fa;
+    color: #0000008a;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-size: 14px;
     
 }
 
 .top_footer{
     padding: 1em;
+    color: #70757a;
 }
 
 .bottom_footer {
@@ -72,7 +90,7 @@ footer {
 }
 
 .bottom_footer a {
-    color: #000000;
+    color: #70757a;
     text-decoration: none;
 }
 
@@ -82,4 +100,9 @@ footer {
 
 .right a{
     margin-right: 1em;
+}
+
+#carbon img {
+    width: 12px;
+    height: 14px;
 }
